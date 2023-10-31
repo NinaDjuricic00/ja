@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+  <title>Travelizo turistička agencija</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css%22%3E">
+  <link rel="stylesheet" href="../../putovanja.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!--HEADER, NAVBAR-->
+
+    <div class="banner">
+        <video id="videopozadina" autoplay muted loop>
+          <source src="../../../img/santorini.mp4" type="video/mp4">
+        </video>
+        <h1 class="leto">Santorini</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="../../index.html" class="active"><img src="../../../img/logo.png" alt="Logo" class="logo"></a>
+              <a href="../../../index.html" class="navbar">Početna</a>
+              <a href="../../../navbar/putovanja.html" class="navbar">Putovanja</a>
+              <a href="../../../navbar/onama.html" class="navbar">O nama</a>
+              <a href="../../../navbar/saradnja.html" class="navbar">Saradnja</a>
+              <a href="../../../navbar/kontakt.html" class="navbar">Kontakt</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-2x"></i>
+            </a>
+        </div>
+    </div>
+
+    <!--SUBNAVBAR-->
+    <ul>
+      <li><a href="santorini.html"><i class='far fa-file-alt'></i> Opis destinacije</a></li>
+      <li><a href="santorini-cena.html"><i class='fa-solid fa-euro-sign'></i> Cena putovanja</a></li>
+      <li><a href="santorini-cena.html"><i class="fa-solid fa-bed"></i> Smeštaj</a></li>
+      <li><a href="santorini-cena.html"><i class="fas fa-bus"></i> Plan putovanja</a></li>
+      <li><a href="santorini-cena.html"><i class="fa fa-shopping-bag"></i> Izleti</a></li>
+    </ul>
+    <!--INFORMACIJE-->
+    <div class="text" id="text">
+      <p>Ostrvo gde je priroda stvorila čistu umetnost. Ostrvo malo po površini, ali nadaleko čuveno po svojoj lepoti. Svojom vulkanskom aktivnošću, snaga prirode je iz dubine Egejskog mora uspela da uzdigne biser medju ostrvima – ostrvo Santorini. Pre oko 3500 godina, ogramna vulkanska erupcija ostavila je traga kada je centralni deo ostrva pao u dubine mora i ostavio na površini 300m visoke litice koje su nešto kasnije ukrašene prelepim crkvama i kućama izgrađenim u veoma prepoznatljivom stilu. Santorini pripada ostrvskoj grupi Kiklada. Obuhvata teritoriju od oko 96 km2, dužina obale je 69 km. Zapadna strana ostrva, ona koja je okrenuta prema vulkanu je stenovita i strma i naziva se Kaldera. Stanovnici Santorinija se pretežno bave turizmom, ali i uzgajanjem specifične vrste vinove loze, od koje se dobija izuzetno vino nychteri, i paradajza, veoma malog i neverovatno ukusnog. Zbog svoje popularnosti, gostoprimljivosti i sadržaja Santorini je ostrvo koje poslednjih godina opseda veliki broj poznatih ličnosti iz celog sveta.</p>
+      <div class="lista">
+          <h3>Zašto Santorini?</h3>
+          <ul>
+                <li> jer očarava svojim belo-plavim izgledom,
+                <li> jer se u Oia-i doživi najlepši zalazak sunca u Grčkoj,
+                <li> jer možemo uživati u jedinstvenoj beloj, crvenoj ili crnoj vulkanskoj plaži duž čistog Egejskog mora,
+                <li> jer se možemo kupati u lekovitim vulkanskim izvorima,
+                <li> jer je odlična polazna tačka za otkrivanje ostalih bisera Kiklada kao što su Paros, Milos, Naksos, Mikonos i Ios.</li>
+          </ul>
+      </div>
+
+      <!--TEMPERATURA-->
+
+      <h3>Prosečna temperatura za Santorini</h3>
+
+      <div class="main-content">
+        <div class="tabela">
+        <table class="table">
+          <thead style="background-color: #719490;">
+            <tr>
+              <th></th>
+              <th>MAJ</th>
+              <th>JUN</th>
+              <th>JUL</th>
+              <th>AVGUST</th>
+              <th>SEPTEMBAR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Dnevna temperatura</th>
+              <td colspan="1">25</td>
+              <td colspan="1">30</td>
+              <td colspan="1">33</td>
+              <td colspan="1">33</td>
+              <td colspan="1">29</td>
+            </tr>
+            <tr>
+              <th scope="row">Temperatura mora</th>
+              <td>20</td>
+              <td>22.3</td>
+              <td>24</td>
+              <td>24</td>
+              <td>23</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+      
+
+
+      <!--MAPA-->
+
+      
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102754.72704642733!2d25.35059079209915!3d36.40713340091283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499ce86adfd9ff7%3A0xb2a761f740d68afc!2sSantorini!5e0!3m2!1sen!2srs!4v1652092045488!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+    <!--FOOTER-->
+
+      <div class="container-xxl" id="fot">
+        <footer>
+          <div class="container p-4 pb-0">
+            <section class="">
+              <div class="row">
+                <div class="col-md-10 col-lg-2 col-xl-2 mx-auto mt-3" id="slika">
+                    <img src="../../../img/logo.png" alt="Logo" width="150">
+                </div>
+      
+                <hr class="w-100 clearfix d-lg-none" />
+      
+                <!-- RADNO VREME -->
+
+                <div class="col-md-10 col-lg-2 col-xl-2 mx-auto mt-3" id="radno-vreme">
+                  <h6 class="text-uppercase mb-lg-4 font-weight-bold">Radno vreme</h6>   
+                  <p>
+                    <a class="text-white">Ponedeljak - petak 8h-18h</a>
+
+                  </p>
+                  <p>
+                    <a class="text-white">Subota 8h-14h</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Nedelja neradna</a>
+                  </p>
+                </div>
+
+                <hr class="w-100 clearfix d-lg-none" />
+                <hr class="w-100 clearfix d-lg-none" />
+      
+                <!-- KONTAKT -->
+                
+                <div class="col-md-10 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Kontakt</h6>
+                  <p><i class="fas fa-envelope mr-3"></i> info@travelizo.rs</p>
+                  <p><i class="fa fa-mobile" ></i> 069 / 32 - 82 - 358</p>
+                  <p><i class="fa fa-phone"></i> 011 / 12 - 95 -1 83</p>
+                </div>
+
+                <hr class="w-100 clearfix d-lg-none" />
+
+                <!--ZAPRATITE NAS-->
+
+                <div class="col-md-10 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Zapratite nas</h6>
+                    <div class="soc-links">
+                      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                      <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div
+               class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2022 Copyright:<a class="text-white" href="../../../index.html">Travelizo.rs</a>
+          </div>
+        </footer>
+      </div>
+
+    <!--JS ZA NAVBAR RESPONZIVNOST-->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+        }
+    </script>
+
+
+</body>
+</html>

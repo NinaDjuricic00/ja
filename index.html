@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <title>Travelizo turistička agencija</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css%22%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--HEADER, NAVBAR-->
+
+    <div class="banner">
+      <video id="videopozadina" poster="../img/letovanja/zakintos.jpg" autoplay muted loop>
+        <source src="img/videocover.mp4" type="video/mp4">
+      </video>
+
+     <div class="topnav" id="myTopnav">
+          <a href="#" class="active"><img src="img/logo.png" alt="Logo" class="logo"></a>
+            <a href="#" class="navbar">Početna</a>
+            <a href="navbar/putovanja.html" class="navbar">Putovanja</a>
+            <a href="navbar/onama.html" class="navbar">O nama</a>
+            <a href="navbar/saradnja.html" class="navbar">Saradnja</a>
+            <a href="navbar/kontakt.html" class="navbar">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars fa-2x"></i>
+            </a>          
+      </div>
+    
+      <div class="content">
+        <h1>Svoje snove pretvori u realnost!</h1>
+        <p>Izaberite neku od najpopularnijih letnjih destinacija!</p>
+        <div>
+            <a href="navbar/putovanja.html"><button type="button"><span> Saznaj više</span></button></a>
+        </div>
+     </div>
+
+    </div>
+
+      <!--JS ZA NAVBAR RESPONZIVNOST-->
+
+      <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+      </script>
+
+
+</body>
+</html>
